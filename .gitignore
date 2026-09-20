@@ -1,0 +1,22 @@
+# Secrets - never commit these
+.env
+.env.*
+!.env.example
+*.key
+*_key
+.anthropic_key
+secrets/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+
+# Local runs - keep the recorded example, ignore your own
+*.jsonl
+!race_seven.jsonl
+results/*.json
+*.log
+.DS_Store
