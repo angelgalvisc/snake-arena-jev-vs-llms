@@ -1,10 +1,11 @@
-# Decisions per minute
+# Snake Arena
 
-How many decisions can a model make in a minute, and what do they cost?
+**Jev against six LLMs. One minute each.**
 
-This is a benchmark that puts **Jev**, TypeSafe's System One model, next to six
-general-purpose LLMs on one concrete task: **score as many points as you can in
-sixty seconds of Snake.**
+How many decisions can a model make in a minute, and what do they cost? This
+benchmark puts **Jev**, TypeSafe's System One model, next to six general-purpose
+LLMs on one concrete task: **score as many points as you can in sixty seconds of
+Snake.**
 
 Snake is a stand-in for a class of problem that is otherwise hard to compare
 fairly. The board moves on a clock. Every tick needs one small decision out of
