@@ -19,6 +19,16 @@ The question the repository is built to answer is not "which model is smartest".
 It is **what changes when the decision model is built for decisions instead of
 for text.**
 
+![Seven Snake boards side by side at the end of a sixty-second race. Jev's board
+is green with 21 points from 204 moves at 0.59 cents; the other six are red,
+scoring 9, 3, 5, 5, 5 and 2 from 73, 25, 43, 40, 34 and 14 moves, at 0.51 to 9.62
+cents. Under Jev's board a bar chart shows its probability for each direction and
+a confidence of 1.00; under four of the LLM boards, the rationale each one wrote
+for its latest move.](docs/seven-model-race.webp)
+
+*The end of the run recorded in `race_seven.jsonl`. Every figure on this page is
+computed from that file.*
+
 ## What is being compared
 
 The seven players are not seven brands. Six of them are general-purpose LLMs;
@@ -362,7 +372,8 @@ from each provider's published rates. Update it when they change.
 | `arena.py` | the secondary experiment: decision quality, clock paused or running |
 | `replay.py` | re-render a recorded race in the terminal |
 | `output_shape.py` | shows that a System One answer's size follows the question, not the state |
-| `race_seven.jsonl` | the recorded run the tables above are computed from |
+| `race_seven.jsonl` | the recorded run every figure above is computed from |
+| `docs/seven-model-race.webp` | the screenshot at the top, at the end of that run |
 
 ## License
 
